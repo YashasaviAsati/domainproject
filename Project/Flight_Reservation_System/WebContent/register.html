@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="RegisterServlet" method = "post">
+	<label>Enter Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input  type ="text" name ="name"  placeholder ="Enter name" required><br />
+	<label>Enter Password:&nbsp&nbsp&nbsp</label><input type ="password" name ="password"  placeholder ="Enter Password" required><br />
+	<label>Enter Phone:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type ="number" name ="phone"  placeholder ="Enter Phone" maxlength="10" required><br />
+	<label>Enter Email</label><input type ="email" name ="email"  placeholder ="Enter Email" required><br />
+	Select GENDER
+	<input type ="radio" name = "gender" value ="M">Male
+	<input type ="radio" name = "gender" value ="F">Female<br>
+	<label>Enter DOB</label><input type ="date" name ="dob"  placeholder ="yyyy/mm/dd" required><br />	
+	<input type="submit" value = "Register">
+	</form>
+</body>
+</html>
